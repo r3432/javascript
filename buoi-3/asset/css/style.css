@@ -1,0 +1,98 @@
+/* CSS */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.header{
+  width: 100%;
+  height: 76px;
+  background-color: #373B69;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.header form input{
+  background-color: transparent;
+  border: 2px solid #22254B;
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 10px 20px;
+  height: 44px;
+  color:white;
+}
+
+.header form input:focus{
+  outline: none;
+  background-color: #22254B;
+}
+
+.main{
+  padding: 40px 10px;
+  background-color: #22254B;
+}
+
+.main .container{
+  max-width: 85%;
+  height: 800px;
+}
+
+.wrap-movie{
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative; /* Ensure relative positioning for absolutely positioned child */
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.wrap-movie .box-image img{
+  width: 100%;
+  object-fit: cover;
+  height: 450px;
+}
+
+.wrap-movie .box-infor{
+  background-color: #373B69;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap-movie .box-infor h3{
+  color:white;
+  font-size: 20px;
+}
+
+.wrap-movie .box-infor .rateing{
+  padding: 15px;
+  color: blue;
+  background-color: #22254B;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.over-view{
+  position: absolute;
+  background-color: white;
+  padding: 30px 20px;
+  bottom: -600px; /* Initially hide it */
+  transition: bottom .3s;
+  left: 0;
+}
+
+.over-view h4{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.wrap-movie:hover .over-view{
+  bottom: 0; /* Show on hover */
+}
+
+.descript{
+  font-size: 19px;
+}
