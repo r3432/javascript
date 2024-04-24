@@ -69,7 +69,7 @@
 
 .wrap-movie .box-infor .rateing{
   padding: 15px;
-  color: blue;
+  
   background-color: #22254B;
   font-size: 13px;
   border-radius: 4px;
@@ -95,4 +95,20 @@
 
 .descript{
   font-size: 19px;
+}
+
+.box-infor .green{
+  color: green;
+}
+
+.box-infor .orange{
+  color: orange;
+}
+
+.box-infor .red{
+  color: red;
+}
+
+.wrap-movie a{
+  text-decoration: none;
 }

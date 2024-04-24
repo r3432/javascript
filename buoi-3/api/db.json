@@ -1,0 +1,25 @@
+{
+  "movie":[{
+  "id ":693134,
+  "title":"movie 1",
+  "rating":9,
+"url":"https://www.pinterest.com/binhsdcm01/peaceful/"
+  },
+
+  {
+    "id ":69,
+    "title":"movie 2",
+    "rating":7,
+  "url":"https://www.pinterest.com/binhsdcm01/peaceful/"
+    }
+],
+"user":[{
+  "id ":69,
+  "title":"movie 2",
+  "rating":7,
+"url":"https://www.pinterest.com/binhsdcm01/peaceful/"
+}
+  ]
+
+
+}
